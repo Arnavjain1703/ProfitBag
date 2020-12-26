@@ -50,3 +50,10 @@
         display: none;
     }
 }
+
+@media screen and (max-width: 1080px) {
+    .btn--medium {
+        font-size: 12px;
+    }
+}
+

@@ -7,7 +7,18 @@ class Features extends Component {
      
       return (
         <div className={classes.features}>
-        features
+          
+        <div className={classes.featureContainer}>
+        <div className={classes.featurebox}>
+        hiii
+        </div>
+        <div className={classes.featurebox}>
+        hiii
+        </div>
+        <div className={classes.featurebox}>
+        hiii
+        </div>
+        </div>
         </div>
       );
     }

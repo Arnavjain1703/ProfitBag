@@ -1,5 +1,63 @@
+@font-face {
+    font-family: headingfont;
+    src:url("../../assets//fonts/ADAM.CG\ PRO.otf");
+}
+
 .landingSection{
     height: 90vh;
     background-image: url('../../assets/images/bg1.png');
     background-size: cover;
+    padding-left: 160px;
+    padding-top: 56px;
+    color: white;
+}
+
+.btnContainer{
+    display: flex;
+    margin-top: 20px;
+}
+
+.tradebtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* padding: 8px 16px; */
+    color: #03102F;
+    width: 150px;
+    height: 40px;    
+    background: #FFFFFF;
+    border-radius: 3px;
+    margin-right: 32px;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+.downloadbtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* padding: 8px 16px; */
+    color: #fff;
+    width: 150px;
+    height: 40px;  
+    /* background: #FFFFFF; */
+    border: 2px solid white;
+    border-radius: 3px;
+    font-family: 'Poppins';
+}
+
+.heading{
+    font-size: 56px;
+    line-height: 1.2;
+    font-family: headingfont;
+}
+
+.description{
+    margin-top: 28px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.3;
 }
