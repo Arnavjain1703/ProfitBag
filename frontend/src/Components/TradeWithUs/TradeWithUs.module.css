@@ -1,3 +1,12 @@
+@font-face {
+    font-family: headingfont;
+    src:url("../../assets//fonts/ADAM.CG\ PRO.otf");
+}
+
 .tradewithus{
     height: 100vh;
+    /* background-image: url('../../assets/images/bg1.png'); */
+    /* temp */
+    background-color: red;
+    font-size: 100px;
 }

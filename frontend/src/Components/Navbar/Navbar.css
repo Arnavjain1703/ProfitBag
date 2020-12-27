@@ -1,5 +1,6 @@
 .NavbarItems {
     background: #03102F;
+    /* background: red;  */
     height: 60px;
     display: flex;
     justify-content: center !important;
@@ -8,6 +9,7 @@
     top:0;
     font-size: 1.2rem;
     z-index: 5 !important;
+    padding-right: 30px;
 }
 
 .navbar-logo {
@@ -21,6 +23,7 @@
     display: grid;
     grid-template-columns: repeat(5, auto);
     grid-gap: 10px;
+    padding-top: 10px;
     list-style: none;
     text-align: center;
     width: 70vw;
@@ -32,8 +35,7 @@
     color: white;
     text-decoration: none;
     padding: 0.5rem 1rem;
-    
-    /* background-color: green; */
+
 }
 
 .nav-links:hover {
@@ -63,6 +65,10 @@
 
 @media screen and (max-width: 960px) {
 
+    .NavbarItems {
+        height: 80px;
+    }
+
     .nav-menu {
         display: flex;
         flex-direction: column;
@@ -70,6 +76,7 @@
         height: 250px;
         position: absolute;
         top: 80px;
+        padding-top: 0;
         left: -100%;
         opacity: 1;
         transition: all 0.5s ease;
@@ -81,6 +88,7 @@
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 1;
+        /* padding-top: 0px; */
     }
 
     .nav-links {

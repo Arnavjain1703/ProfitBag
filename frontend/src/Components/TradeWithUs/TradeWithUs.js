@@ -7,7 +7,7 @@ class TradeWithUs extends Component {
      
       return (
         <div className={classes.tradewithus}>
-        TradeWithUs
+        {/* TradeWithUs(ignore) */}
         </div>
       );
     }

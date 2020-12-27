@@ -6,10 +6,11 @@
 
 .feedback{
     height: 90vh;
-    background: url('../../assets/images/bg4.png');
+    background: url('../../assets/images/bg4.svg');
     background-size: cover;
     display: flex;
     flex-direction: column;
+    padding-bottom: 40px;
 }
 
 .head{
