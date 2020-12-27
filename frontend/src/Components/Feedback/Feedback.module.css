@@ -39,6 +39,7 @@
     color: #fff;
     margin: auto;
     /* background: red; */
+    text-align: center;
     padding: auto;
 }
 
@@ -53,7 +54,7 @@
     margin-bottom: 100px;
 }
 
-.box{
+.box, .box2{
     background: linear-gradient(368deg, #001F69 -32.79%, #03102F 41.07%);
     /* background: red; */
     font-family: 'Montserrat';
@@ -66,4 +67,16 @@
     margin-right: 40px;
     /* padding-bottom: 30px ; */
     flex-direction: column;
+    }
+
+    @media(max-width: 750px){
+
+        .box{
+            margin-right: 0;
+        }
+
+        .box2{
+            display: none;
+            margin-right: 0;
+        }
     }

@@ -55,6 +55,7 @@ class Feedback extends Component {
 <Carousel>
   <Carousel.Item>
   <div className={classes.Container}>
+        {/* first review */}
   <div className={classes.box}>
             <p className={classes.head}>Dhriti Chadda</p>
             <p className={classes.text}>I'm working with Profitbag <br/>
@@ -65,7 +66,8 @@ class Feedback extends Component {
             smoothest  <br/>app available 
             on any  <br/>brokerage platform.</p>
             </div>
-            <div className={classes.box}>
+{/* second review */}
+            <div className={classes.box2}>
             <p className={classes.head}>Dhriti Chadda</p>
             <p className={classes.text}>I'm working with Profitbag <br/>
             since Jan-2017. All I can
@@ -80,6 +82,7 @@ class Feedback extends Component {
   </Carousel.Item>
   <Carousel.Item>
   <div className={classes.Container}>
+    {/* first review */}
   <div className={classes.box}>
             <p className={classes.head}>Dhriti Chadda</p>
             <p className={classes.text}>I'm working with Profitbag <br/>
@@ -90,7 +93,8 @@ class Feedback extends Component {
             smoothest  <br/>app available 
             on any  <br/>brokerage platform.</p>
             </div>
-            <div className={classes.box}>
+            {/* second review */}
+            <div className={classes.box2}>
             <p className={classes.head}>Dhriti Chadda</p>
             <p className={classes.text}>I'm working with Profitbag <br/>
             since Jan-2017. All I can
@@ -104,6 +108,7 @@ class Feedback extends Component {
   </Carousel.Item>
   <Carousel.Item>
   <div className={classes.Container}>
+    {/* first review */}
   <div className={classes.box}>
             <p className={classes.head}>Dhriti Chadda</p>
             <p className={classes.text}>I'm working with Profitbag <br/>
@@ -114,7 +119,8 @@ class Feedback extends Component {
             smoothest  <br/>app available 
             on any  <br/>brokerage platform.</p>
             </div>
-            <div className={classes.box}>
+            {/* second review */}
+            <div className={classes.box2}>
             <p className={classes.head}>Dhriti Chadda</p>
             <p className={classes.text}>I'm working with Profitbag <br/>
             since Jan-2017. All I can

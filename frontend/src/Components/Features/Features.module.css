@@ -60,7 +60,7 @@
     /* background: red; */
     border-radius: 27px;
     width: 250px;
-    height:220px;
+    /* height:220px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,11 +103,29 @@
         }
 
         .featurebox{
-            margin-top: 60px;
+            margin-top: 20px;
+        }
+
+        .icon{
+            transform: scale(0.8);
         }
 
         .heading{
             font-size: 32px ;
+        }
+    }
+
+    @media(max-width: 380px){
+        /* .icon{
+            transform: scale(0.6);
+        } */
+
+        .features{
+            height: 100vh;
+        }
+
+        .heading{
+            font-size: 28px ;
         }
     }
 
