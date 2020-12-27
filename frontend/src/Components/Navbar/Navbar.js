@@ -28,7 +28,7 @@ class Navbar extends Component {
                         )
                     })}
                 </ul>
-                <Button>Get app</Button>
+                <Button>Get&nbsp;app</Button>
             </nav>
         )
     }

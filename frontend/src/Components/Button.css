@@ -20,6 +20,7 @@
 
 .btn--primary {
     background-color: white;
+    display: flex;
 }
 
 .btn--outline {
@@ -35,8 +36,21 @@
     padding: 8px 20px;
     border-radius: 4px;
     font-size: 18px;
+    font-weight: 500;
     color: #03102F;
+    transition: all 0.5s ease;
 }
+
+.btn--medium:hover {
+    padding: 8px 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    color: #fff;
+    background: #03102F;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+
 
 .btn-large {
     padding: 12px 26px;
@@ -51,9 +65,5 @@
     }
 }
 
-@media screen and (max-width: 1080px) {
-    .btn--medium {
-        font-size: 12px;
-    }
-}
+
 

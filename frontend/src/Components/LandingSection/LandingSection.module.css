@@ -35,7 +35,24 @@
     margin-right: 32px;
     font-family: 'Poppins';
     font-weight: 500;
+    transition: all 0.5s ease;
+    cursor: pointer;
 }
+
+ .downloadbtn:hover{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #03102F;
+    width: 150px;
+    height: 40px;    
+    background: #FFFFFF;
+    border-radius: 3px;
+    margin-right: 32px;
+    font-family: 'Poppins';
+    font-weight: 500;
+} 
 
 .downloadbtn{
     display: flex;
@@ -46,7 +63,24 @@
     color: #fff;
     width: 150px;
     height: 40px;  
-    /* background: #FFFFFF; */
+    background: #03102F;
+    border: 2px solid white;
+    border-radius: 3px;
+    font-family: 'Poppins';
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.tradebtn:hover{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* padding: 8px 16px; */
+    color: #fff;
+    width: 150px;
+    height: 40px;  
+    background: #03102F;
     border: 2px solid white;
     border-radius: 3px;
     font-family: 'Poppins';

@@ -33,15 +33,17 @@
 
 .nav-links {
     color: white;
+    font-weight: 600;
     text-decoration: none;
     padding: 0.5rem 1rem;
 
 }
 
 .nav-links:hover {
-    background-color: #6d76f7;
-    border-radius: 4px;
+    color: #ccc;
+    color: rgba(255,255,255,0.5);
     transition: all 0.2s ease-out;
+    text-decoration: none;
 }
 
 .fa-bars {
@@ -52,12 +54,7 @@
     display: none;
 }
 
-/* Button {
-    display: none ;
-    margin-right: 80px;
-    background: #fff !important;
-    color: #03102F !important;
-} */
+
 
 .menu-icon {
     display: none;
@@ -101,8 +98,7 @@
     }
 
     .nav-links:hover {
-        background-color: #7577fa;
-        border-radius: 0;
+        font-weight: 600;
     }
 
     .navbar-logo {
@@ -153,4 +149,3 @@
     }
 
 }
-
