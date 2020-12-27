@@ -3,13 +3,24 @@ import classes from './Features.module.css';
 import {ReactComponent as DeviceIcon} from '../../assets/icons/devices.svg';
 import {ReactComponent as NotificationsIcon} from '../../assets/icons/notifications.svg';
 import {ReactComponent as TradeIcon} from '../../assets/icons/trade.svg';
-
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 class Features extends Component {
+  componentDidMount()
+  {
+    Aos.init({
 
+      offset: 200,
+      duration: 600,
+      easing: 'ease-in-sine',
+      delay: 100,
+    });
+  }
     render(){
      
       return (
         <div className={classes.features}>
+        <div className={classes.image} data-aos="fade-up"></div>
         <div className={classes.heading}> Features we provide</div>
             
         <div className={classes.featureContainer}>

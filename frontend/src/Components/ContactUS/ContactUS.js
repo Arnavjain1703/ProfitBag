@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import classes from './ContactUs.module.css';
-
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 
 class ContactUs extends Component {
 
@@ -9,7 +10,16 @@ class ContactUs extends Component {
     contact: "",
     message: ""
   }
+  componentDidMount()
+  {
+    Aos.init({
 
+      offset: 200,
+      duration: 600,
+      easing: 'ease-in-sine',
+      delay: 100,
+    });
+  }
   handlechangeall = (event) =>{
     this.setState ( { [event.target.name] :event.target.value  } )
   }
@@ -25,6 +35,8 @@ class ContactUs extends Component {
      
       return (
         <div className={classes.contact}>
+             <div className={classes.image} data-aos="fade-up"></div>
+
         <p className={classes.heading}>Contact US</p>
         <p className={classes.text}>Having any query about features, trials, pricing, need a demo, or anything else? Our team is ready to answer all your questions</p>
         <form className={classes.form}>

@@ -6,15 +6,26 @@
 
 .features{
     height: 90vh;
-    background: url('../../assets/images/bg3.png');
     background-size: cover;
     display: flex;
     flex-direction: column;
+}
+.image
+{
+    position: absolute;
+    height: 90vh;
+    width: 100vw;
+     background: url('../../assets/images/bg3.png');
+     background-size: cover;
+     z-index: 0;
+     background-repeat: no-repeat;
 }
 
 .icon{
     height: 80px;
     width: auto;
+    position: relative;
+    z-index: 2;
 }
 
 .featurehead{
@@ -23,16 +34,22 @@
     font-weight: 600;
     margin-top: 10px;
     margin-bottom: 5px;
+    position: relative;
+    z-index: 2;
 }
 
 .text{
     font-size: 16px;
     color: white;
     margin-top: 0;
+    position: relative;
+    z-index: 2;
 }
 
 .icon{
     color: white;
+    position: relative;
+    z-index: 2;
 }
 
 .heading{
@@ -43,6 +60,8 @@
     margin: auto;
     /* background: red; */
     padding: auto;
+    position: relative;
+    z-index: 2;
 }
 
 .featureContainer{
@@ -53,6 +72,8 @@
     justify-content: space-evenly;
     /* background-color: green; */
     margin-top: 0;
+    position: relative;
+    z-index: 2;
 }
 
 .featurebox{
@@ -66,6 +87,8 @@
     align-items: center;
     /* padding-bottom: 30px ; */
     flex-direction: column;
+    position: relative;
+    z-index: 2;
     }
     
 

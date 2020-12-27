@@ -3,16 +3,30 @@
     src:url("../../assets//fonts/ADAM.CG\ PRO.otf");
 }
 
-
+.image
+{
+    position: absolute;
+    height: 90vh;
+    width: 100vw;
+     background: url('../../assets/images/bg4.svg');
+     background-size: cover;
+}
 .feedback{
     height: 90vh;
-    background: url('../../assets/images/bg4.svg');
-    background-size: cover;
     display: flex;
     flex-direction: column;
     padding-bottom: 40px;
 }
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
 
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
 .head{
     font-size: 20px;
     color: white;
@@ -41,6 +55,8 @@
     /* background: red; */
     text-align: center;
     padding: auto;
+    position: relative;
+    z-index: 2;
 }
 
 .Container{
