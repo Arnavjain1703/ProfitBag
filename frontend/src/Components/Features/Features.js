@@ -10,10 +10,9 @@ class Features extends Component {
   {
     Aos.init({
 
-      offset: 200,
-      duration: 600,
+      offset: 100,
+      duration: 300,
       easing: 'ease-in-sine',
-      delay: 100,
     });
   }
     render(){
@@ -21,9 +20,9 @@ class Features extends Component {
       return (
         <div className={classes.features}>
         <div className={classes.image} data-aos="fade-up"></div>
-        <div className={classes.heading}> Features we provide</div>
+        <div className={classes.heading} data-aos="fade-up"> Features we provide</div>
             
-        <div className={classes.featureContainer}>
+        <div className={classes.featureContainer} data-aos="fade-up">
         <div className={classes.featurebox}>
         <DeviceIcon className={classes.icon}/>
         <p className={classes.featurehead}>Access on Any Platform</p>

@@ -9,27 +9,31 @@
     background-color: #031030;
 }
 .box{
-    width: 500px;
-    height: 500px;
+    /* width: 500px;
+    height: 500px; */
     margin: auto;
-    background-color: red;
+    /* background: url('../../assets/images/Laptop.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
     animation: type 1s linear;
     transform-origin: top;
     animation-play-state: paused;
+    position: relative;
   }
   
   @keyframes type{
       0%{
-   transform: scale(2) perspective(800px) rotateX(80deg) ;
-  
+   transform: scale(2) perspective(800px) rotateX(80deg);
+      
       }
     
-    20%{
+    /* 20%{
       transform: scale(0.8) perspective(600px) rotateX(60deg) ;
-    }
+    } */
     
       100%{
-           transform: scale(0.5) perspective(800px) rotateX(0deg) ;
+           transform: scale(0.5) perspective(400px) rotateX(0deg) ;
       }
   }
  

@@ -7,20 +7,18 @@ class Feedback extends Component {
   componentDidMount()
   {
     Aos.init({
-
-      offset: 200,
-      duration: 600,
+      offset: 100,
+      duration: 300,
       easing: 'ease-in-sine',
-      delay: 100,
     });
   }
     render(){
       return (
         <div className={classes.feedback}>
-             <div className={classes.image} data-aos="fade-up fade-down"></div>
-            <div className={classes.heading}>What do our clients say?</div>
+             <div className={classes.image} data-aos="fade-up "></div>
+            <div data-aos="fade-up " className={classes.heading}>What do our clients say?</div>
 
-<Carousel>
+<Carousel data-aos="fade-up ">
   <Carousel.Item>
   <div className={classes.Container}>
         {/* first review */}
