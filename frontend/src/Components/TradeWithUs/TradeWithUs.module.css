@@ -1,5 +1,11 @@
+@font-face {
+    font-family: headingfont;
+    /* src:url("../../assets//fonts/ADAM.CG\ PRO.otf"); */
+}
+
 .tradewithus{
     height: 100vh;
+
     background-color: #031030;
 }
 .box{
@@ -26,4 +32,4 @@
            transform: scale(0.5) perspective(800px) rotateX(0deg) ;
       }
   }
-  
+ 

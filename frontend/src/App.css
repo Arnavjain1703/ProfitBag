@@ -1,12 +1,15 @@
-.right.carousel-control, .left.carousel-control {
+.App{
+    background-color: #03102F
+}
+
+.carousel-control-next-icon{
     display: none !important;
 }
 
-.right.carousel-control, 
-.left.carousel-control 
-{
-     visibility:hidden !important;
+.carousel-control-prev-icon{
+    display: none !important;
 }
 
-.carousel .glyphicon-chevron-right{display:none !important;}
-.carousel .carousel-control { visibility: hidden !important; }
+.carousel-indicators{
+    z-index: 1 !important;
+}

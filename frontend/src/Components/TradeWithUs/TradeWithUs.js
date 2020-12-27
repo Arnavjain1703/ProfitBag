@@ -28,9 +28,11 @@ class TradeWithUs extends Component {
     render(){
       
       return (
-        <div onScroll={this.onScroll}  className={classes.tradewithus}>
+
+        <div   className={classes.tradewithus}>
 
         <div  style={{backgroundColor: "green" ,animationDelay:`${this.state.value3}`+"s" }}className={classes.box}></div>
+
         </div>
 
       );

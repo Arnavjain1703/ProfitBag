@@ -13,9 +13,9 @@ class LandingSection extends Component {
         Profitbag<br />
         </div>
         <div className={classes.description}>
-        With Rtrade you can do trading Anywhere <br />
-        Anytime on any platform. Download our app <br />
-        or continue with your browers for trading. <br />
+        With Rtrade you can do trading Anywhere <br className={classes.breaks}/>
+        Anytime on any platform. Download our app <br className={classes.breaks}/>
+        or continue with your browers for trading. <br className={classes.breaks}/>
         </div>
         <div className={classes.btnContainer}>
 
