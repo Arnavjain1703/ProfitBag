@@ -26,7 +26,6 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    /* padding: 8px 16px; */
     color: #03102F;
     width: 150px;
     height: 40px;    
@@ -37,6 +36,8 @@
     font-weight: 500;
     transition: all 0.5s ease;
     cursor: pointer;
+    border: 2px solid white;
+
 }
 
  .downloadbtn:hover{
@@ -49,9 +50,9 @@
     height: 40px;    
     background: #FFFFFF;
     border-radius: 3px;
-    margin-right: 32px;
     font-family: 'Poppins';
     font-weight: 500;
+    border: 2px solid white;
 } 
 
 .downloadbtn{
@@ -59,7 +60,6 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    /* padding: 8px 16px; */
     color: #fff;
     width: 150px;
     height: 40px;  
@@ -76,10 +76,10 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    /* padding: 8px 16px; */
     color: #fff;
     width: 150px;
     height: 40px;  
+    margin-right: 32px;
     background: #03102F;
     border: 2px solid white;
     border-radius: 3px;
