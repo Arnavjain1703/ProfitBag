@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import classes from './TradeWithUs.module.css';
-import laptop from '../../assets/images/Laptop.svg';
+import {ReactComponent as StepsIcon} from '../../assets/icons/steps.svg';
 
 class TradeWithUs extends Component {
   state=
@@ -32,7 +32,9 @@ class TradeWithUs extends Component {
 
         <div   className={classes.tradewithus}>
 
-        {/* <div  style={{backgroundColor: "green" ,animationDelay:`${this.state.value3}`+"s" }}className={classes.box}></div> */}
+        <div style={{animationDelay:`${this.state.value3}`+"s" }}className={classes.box}></div>
+        <div className={classes.heading}>Trade With Us</div>
+        <StepsIcon className={classes.icon}/>
         </div>
 
       );
