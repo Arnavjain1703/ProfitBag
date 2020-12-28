@@ -26,6 +26,17 @@
      background-size: cover;
 }
 
+.phone{
+  position: absolute;
+  background: url('../../assets/images/Phone.svg');
+  background-size: cover;
+  width: 75px;
+  height: 150px;
+  transform: scale(0.6);
+  top: 130vh;
+  left: 80vh;
+}
+
 .heading{
 font-size: 28px;
 font-family: headingfont;
