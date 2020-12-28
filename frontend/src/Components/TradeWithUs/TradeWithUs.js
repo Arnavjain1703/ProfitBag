@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import classes from './TradeWithUs.module.css';
+import laptop from '../../assets/images/Laptop.svg';
 
 class TradeWithUs extends Component {
   state=
@@ -20,6 +21,7 @@ class TradeWithUs extends Component {
       this.setState({value:window.pageYOffset / (document.body.offsetTop - window.innerHeight)});
       this.setState({value2:this.state.value})
       this.setState({value3:((this.state.value2))})
+      console.log(this.state.value3)
     }, false);
 
   }
@@ -30,8 +32,7 @@ class TradeWithUs extends Component {
 
         <div   className={classes.tradewithus}>
 
-        <img src={"/assets/images/Laptop.svg"} style={{animationDelay:`${this.state.value3}`+"s" }} ></img>
-
+        {/* <div  style={{backgroundColor: "green" ,animationDelay:`${this.state.value3}`+"s" }}className={classes.box}></div> */}
         </div>
 
       );

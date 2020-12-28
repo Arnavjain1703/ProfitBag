@@ -13,11 +13,11 @@ class Feedback extends Component {
     });
   }
     render(){
+     
       return (
         <div className={classes.feedback}>
-             <div className={classes.image} data-aos="fade-up "></div>
+           <div className={classes.image} data-aos="fade-up "></div>
             <div data-aos="fade-up " className={classes.heading}>What do our clients say?</div>
-
 <Carousel data-aos="fade-up ">
   <Carousel.Item>
   <div className={classes.Container}>

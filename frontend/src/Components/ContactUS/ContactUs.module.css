@@ -5,6 +5,7 @@
 
 .contact{
     height: 90vh;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center; 
@@ -17,7 +18,7 @@
     position: absolute;
     height: 90vh;
     width: 100vw;
-     background: url('../../assets/images/bg5.png');
+     background: url('../../assets/images/bg5.svg');
      background-size: cover;
      z-index: 0;
      background-repeat: no-repeat;
@@ -67,6 +68,7 @@
     position: relative;
     z-index: 2;
 }
+
 
 .submitbtn{
     width: 100%;
@@ -127,6 +129,12 @@
     }
 }
 
+@media(max-width:750px){
+    .heading{
+        font-size: 32px;
+    }
+}
+
 @media(max-width:550px){
     .text, .form{
         width: 80%;
@@ -140,5 +148,24 @@
 
     .text{
         font-size: 16px;
+    }
+
+}
+
+@media(max-width: 380px){
+
+    .heading{
+        font-size: 28px;
+    }
+}
+
+@media(max-width: 330px){
+
+    .heading{
+        font-size: 24px;
+    }
+
+    .text{
+        font-size: 12px;
     }
 }

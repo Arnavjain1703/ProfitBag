@@ -20,6 +20,7 @@ class ContactUs extends Component {
       delay: 100,
     });
   }
+
   handlechangeall = (event) =>{
     this.setState ( { [event.target.name] :event.target.value  } )
   }
@@ -35,11 +36,10 @@ class ContactUs extends Component {
      
       return (
         <div className={classes.contact}>
-             <div className={classes.image} data-aos="fade-up"></div>
-
-        <p data-aos="fade-up" className={classes.heading}>Contact US</p>
+            <div className={classes.image} data-aos="fade-up"></div>
+        <p  data-aos="fade-up" className={classes.heading}>Contact US</p>
         <p  data-aos="fade-up" className={classes.text}>Having any query about features, trials, pricing, need a demo, or anything else? Our team is ready to answer all your questions</p>
-        <form className={classes.form} data-aos="fade-up" >
+        <form data-aos="fade-up" className={classes.form}>
           <input type="text" name="name" className={classes.fields} onChange={this.handlechangeall} placeholder="Your Name"></input><br/>
           <input type="number" name="contact" className={classes.fields} onChange={this.handlechangeall} placeholder="Contact Number"></input><br/>
           <textarea name="message" className={classes.textarea} onChange={this.handlechangeall} placeholder="Your Message"></textarea><br/>
