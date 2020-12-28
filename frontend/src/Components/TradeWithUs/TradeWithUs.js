@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import classes from './TradeWithUs.module.css';
+import laptop from '../../assets/images/Laptop.svg';
 
 class TradeWithUs extends Component {
   state=
@@ -32,7 +33,6 @@ class TradeWithUs extends Component {
         <div   className={classes.tradewithus}>
 
         {/* <div  style={{backgroundColor: "green" ,animationDelay:`${this.state.value3}`+"s" }}className={classes.box}></div> */}
-
         </div>
 
       );

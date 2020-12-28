@@ -5,7 +5,7 @@
 
 .contact{
     height: 90vh;
-    background: url('../../assets/images/bg5.png');
+    background: url('../../assets/images/bg5.svg');
     background-size: cover;
     display: flex;
     flex-direction: column;

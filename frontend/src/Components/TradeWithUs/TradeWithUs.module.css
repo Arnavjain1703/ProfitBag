@@ -5,8 +5,12 @@
 
 .tradewithus{
     height: 100vh;
-
     background-color: #031030;
+    background: url('../../assets/images/bg2.svg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
 }
 .box{
     width: 500px;
@@ -16,6 +20,7 @@
     animation: type 1s linear;
     transform-origin: top;
     animation-play-state: paused;
+    animation-fill-mode:forwards;
   }
   
   @keyframes type{
