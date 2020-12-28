@@ -13,9 +13,14 @@
 }
 
 .navbar-logo {
+    font-size: 20px;
+    font-family: 'Montserrat';
+    font-weight: 600;
     color: #fff;
-    justify-self: start;
+    /* justify-self: start;
+    align-self: center; */
     margin-left: 20px;
+    margin-bottom: 0px;
     cursor: pointer;
 }
 
@@ -36,7 +41,6 @@
     font-weight: 600;
     text-decoration: none;
     padding: 0.5rem 1rem;
-
 }
 
 .nav-links:hover {
@@ -54,13 +58,15 @@
     display: none;
 }
 
-
-
 .menu-icon {
     display: none;
 }
 
 @media screen and (max-width: 960px) {
+
+    /* .navbar-logo {
+        margin-top: 10px;
+    } */
 
     .NavbarItems {
         height: 81px;
@@ -69,7 +75,7 @@
     .nav-menu {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 108vw;
         height: 250px;
         position: absolute;
         top: 80px;
@@ -81,11 +87,12 @@
 
     .nav-menu.active {
         background: #03102F;
-        left: 0;
+        /* background: red; */
+        left:-8vw;
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 1;
-        /* padding-top: 0px; */
+        padding-top: 0;
     }
 
     .nav-links {
@@ -104,23 +111,30 @@
     .navbar-logo {
         position: absolute;
         top: 0;
+        margin-top: 10px;
         left: 0;
+        margin-left: 0px;
         transform: translate(25%, 50%);
     }
 
     .menu-icon {
         display: block;
         position: absolute;
-        top: 0;
+        top: 16px;
         right: 0;
         transform: translate(-100%, 60%);
-        font-size: 1.8rem;
+        font-size: 1rem;
         cursor: pointer;
     }
 
     .fa-times {
         color: #fff;
-        font-size: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .fa-bars {
+        color: #fff;
+        font-size: 1.3rem;
     }
 
     .nav-links-mobile {

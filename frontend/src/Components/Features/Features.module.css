@@ -88,6 +88,7 @@
 
         .featurebox{
             width: 250px;
+            height: 24vh;
         }
 
         .featureContainer {
@@ -100,6 +101,7 @@
 
         .text{
             font-size: 16px;
+            /* display: none; */
         }
 
         .featurebox{
@@ -120,10 +122,6 @@
             transform: scale(0.6);
         } */
 
-        .features{
-            height: 100vh;
-        }
-
         .heading{
             font-size: 28px ;
         }
@@ -134,4 +132,15 @@
         .heading{
             font-size: 24px ;
         }
+
+        .text{
+            display: none;
+        }
+
+        .featurebox{
+            width: 250px;
+            height: 20vh;
+        }
     }
+
+    
