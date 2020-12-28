@@ -5,6 +5,7 @@ import {ReactComponent as NotificationsIcon} from '../../assets/icons/notificati
 import {ReactComponent as TradeIcon} from '../../assets/icons/trade.svg';
 import Aos from 'aos';
 import 'aos/dist/aos.css'
+
 class Features extends Component {
 
   componentDidMount()

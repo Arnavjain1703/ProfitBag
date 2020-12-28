@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import classes from './TradeWithUs.module.css';
 import {ReactComponent as StepsIcon} from '../../assets/icons/steps.svg';
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 
 class TradeWithUs extends Component {
   state=
@@ -24,17 +26,25 @@ class TradeWithUs extends Component {
       console.log(this.state.value3)
     }, false);
 
+    Aos.init({
+
+      offset: 100,
+      duration: 500,
+      easing: 'ease-in-sine',
+    });
+
   }
   
     render(){
       
       return (
 
-        <div   className={classes.tradewithus}>
+        <div  className={classes.tradewithus}>
+        <div className={classes.image} data-aos="fade-up"></div>
 
         <div style={{animationDelay:`${this.state.value3}`+"s" }}className={classes.box}></div>
-        <div className={classes.heading}>Trade With Us</div>
-        <StepsIcon className={classes.icon}/>
+        <div className={classes.heading} data-aos="fade-up">Trade With Us</div>
+        <StepsIcon className={classes.icon} data-aos="fade-up"/>
         </div>
 
       );

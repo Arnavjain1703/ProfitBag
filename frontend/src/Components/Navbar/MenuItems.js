@@ -19,5 +19,10 @@ export const MenuItems = [
         url: '#',
         cName: 'nav-links'
     },
+    {
+        title: 'Get app',
+        url: '#',
+        cName: 'nav-links hide'
+    },
       
 ]
