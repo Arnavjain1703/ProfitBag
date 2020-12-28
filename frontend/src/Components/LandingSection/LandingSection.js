@@ -24,7 +24,7 @@ class LandingSection extends Component {
         </div>
 
         <div className={classes.downloadbtn}>
-        Download app
+        Download&nbsp;app
         </div>
 
         </div>
