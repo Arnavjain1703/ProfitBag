@@ -32,7 +32,8 @@ class TradeWithUs extends Component {
 
         <div   className={classes.tradewithus}>
 
-        {/* <div  style={{backgroundColor: "green" ,animationDelay:`${this.state.value3}`+"s" }}className={classes.box}></div> */}
+        <div  style={{animationDelay:`${this.state.value3}`+"s" }}className={classes.box}></div>
+        {/* <img src={laptop} style={{animationDelay:`${this.state.value3}`+"s" }} className={classes.box}></img> */}
         </div>
 
       );
