@@ -48,7 +48,7 @@ class TradeWithUs extends Component {
 
         <div className={classes.laptop} data-aos="fade-up"></div>
 
-        <div className={classes.heading} data-aos="fade-up">Trade With Us</div>
+        <div className={classes.heading} data-aos="zoom-in">Trade With Us</div>
         <StepsIcon className={classes.icon} data-aos="fade-up"/>
         <SmallStepsIcon className={classes.mobicon} data-aos="fade-up"/>
         </div>
