@@ -12,7 +12,7 @@ class Features extends Component {
   {
     Aos.init({
 
-      offset: 60,
+      offset: 40,
       duration: 300,
       easing: 'ease-in-sine',
     });
