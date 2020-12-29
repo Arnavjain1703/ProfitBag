@@ -4,7 +4,7 @@
 }
 
 .tradewithus{
-  height: 110vh;
+  min-height: 110vh;
   background-color: #031030;
   /* background: url('../../assets/images/bg2.svg'); */
   /* background: red; */
@@ -45,6 +45,8 @@ color: #fff;
 /* background: red; */
 text-align: center;
 padding: auto;
+position: relative;
+z-index: 2;
 }
 
 .box{
@@ -58,6 +60,8 @@ padding: auto;
   transform-origin: top;
   animation-play-state: paused;
   animation-fill-mode:forwards;
+  position: relative;
+z-index: 2;
 }
 
 /* .laptop{ */
@@ -76,6 +80,8 @@ padding: auto;
   width: 60%;
   margin-top: 5vh;
   /* transform: scale(0.6); */
+  position: relative;
+z-index: 2;
 }
 
 @keyframes type{

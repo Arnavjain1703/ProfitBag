@@ -4,7 +4,7 @@
 }
 
 .landingSection{
-    height: 90vh;
+    min-height: 90vh;
     /* background-image: url("../../assets/images/bg1.svg"); */
     background-image: linear-gradient(to bottom, rgba(3, 16, 47, 0), rgba(3, 16, 47, 1)),
     url("../../assets/images/bg1.svg");
