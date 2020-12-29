@@ -141,11 +141,13 @@
     }
     @media(max-width: 455px){
         
+
         .featurebox{
             width: 250px;
-            height: 100px;
+            height: 150px;
         }
     }
+  
     @media(max-width: 380px){
         
 
