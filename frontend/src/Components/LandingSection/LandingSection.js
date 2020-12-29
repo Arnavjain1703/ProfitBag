@@ -32,7 +32,7 @@ class LandingSection extends Component {
         </div>
         <div className={classes.btnContainer}>
 
-        {this.state.hovered?<div className={classes.notrade}>
+        {this.state.hovered?<div id="trade" className={classes.notrade}>
         Start trading
         </div>:
         <div id="trade" className={classes.tradebtn}>
