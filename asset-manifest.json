@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ProfitBag/static/css/main.21185472.chunk.css",
-    "main.js": "/ProfitBag/static/js/main.42bb04f2.chunk.js",
-    "main.js.map": "/ProfitBag/static/js/main.42bb04f2.chunk.js.map",
+    "main.js": "/ProfitBag/static/js/main.55e0bb21.chunk.js",
+    "main.js.map": "/ProfitBag/static/js/main.55e0bb21.chunk.js.map",
     "runtime-main.js": "/ProfitBag/static/js/runtime-main.341f6d46.js",
     "runtime-main.js.map": "/ProfitBag/static/js/runtime-main.341f6d46.js.map",
     "static/css/2.bc86c968.chunk.css": "/ProfitBag/static/css/2.bc86c968.chunk.css",
@@ -31,6 +31,6 @@
     "static/css/2.bc86c968.chunk.css",
     "static/js/2.0e6cc412.chunk.js",
     "static/css/main.21185472.chunk.css",
-    "static/js/main.42bb04f2.chunk.js"
+    "static/js/main.55e0bb21.chunk.js"
   ]
 }
