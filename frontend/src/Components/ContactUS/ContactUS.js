@@ -46,11 +46,11 @@ class ContactUs extends Component {
     render(){
      
       return (
-        <div className={classes.contact}>
-            <div className={classes.image} data-aos="fade-up"></div>
-        <p  data-aos="fade-up" className={classes.heading}>Contact US</p>
-        <p  data-aos="fade-up" className={classes.text}>Having any query about features, trials, pricing, need a demo, or anything else? Our team is ready to answer all your questions</p>
-        <form data-aos="fade-up" className={classes.form} onSubmit={this.handlesubmit}>
+        <div id="contact" className={classes.contact}>
+            <div className={classes.image} data-aos="zoom-in"></div>
+        <p  data-aos="zoom-in" className={classes.heading}>Contact US</p>
+        <p  data-aos="zoom-in" className={classes.text}>Having any query about features, trials, pricing, need a demo, or anything else? Our team is ready to answer all your questions</p>
+        <form data-aos="zoom-in" className={classes.form} onSubmit={this.handlesubmit}>
           <input type="text" name="name" className={classes.fields} onChange={this.handlechangeall} placeholder="Your Name"></input><br/>
           <input type="number" name="contact" className={classes.fields} onChange={this.handlechangeall} placeholder="Contact Number"></input><br/>
           <textarea name="message" className={classes.textarea} onChange={this.handlechangeall} placeholder="Your Message"></textarea><br/>

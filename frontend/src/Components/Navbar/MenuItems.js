@@ -6,17 +6,17 @@ export const MenuItems = [
     },
     {
         title: 'Features',
-        url: '#',
+        url: '#features',
         cName: 'nav-links'
     },
     {
         title: 'Testimonials',
-        url: '#',
+        url: '#testimonials',
         cName: 'nav-links'
     },
     {
         title: 'Contact Us',
-        url: '#',
+        url: '#contact',
         cName: 'nav-links'
     },
     {

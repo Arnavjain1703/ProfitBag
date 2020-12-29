@@ -20,7 +20,7 @@ class Features extends Component {
     render(){
      
       return (
-        <div className={classes.features}>
+        <div id="features" className={classes.features}>
            <div className={classes.image} data-aos="fade-up"></div>
         <div className={classes.heading} data-aos="fade-up" > Features we provide</div>
             

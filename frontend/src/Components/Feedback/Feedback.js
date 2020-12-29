@@ -15,7 +15,7 @@ class Feedback extends Component {
     render(){
      
       return (
-        <div className={classes.feedback}>
+        <div id="testimonials" className={classes.feedback}>
            <div className={classes.image} data-aos="fade-up "></div>
             <div data-aos="fade-up " className={classes.heading}>What do our clients say?</div>
 <Carousel data-aos="fade-up ">
