@@ -1,0 +1,22 @@
+.btn{
+    display: block !important;
+    background-color: rgba(3, 16, 47, 0.9) !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.btn:hover{
+    display: block !important;
+    background-color: #000C28 !important;
+    color: #fff !important;
+}
+
+@media(max-width: 1023px){
+    .btn{
+        margin:0 !important;
+    }
+
+    
+
+}

@@ -3,13 +3,15 @@ import classes from './ContactUs.module.css';
 import Aos from 'aos';
 import 'aos/dist/aos.css'
 import emailjs from "emailjs-com";
+import PopUp from '../UI/PopUp/PopUp'
 
 class ContactUs extends Component {
 
   state = { 
     name: "",
     contact: "",
-    message: ""
+    message: "",
+    show:false
   }
   componentDidMount()
   {
@@ -32,6 +34,18 @@ class ContactUs extends Component {
       }
     }
 
+    hideModal=()=>{
+      this.setState({
+        show:false
+      })
+    }
+
+    showModal=()=>{
+      this.setState({
+        show:true
+      })
+    }
+
   handlesubmit = (e) => {
     e.preventDefault();
     console.log(this.state.name)
@@ -43,6 +57,7 @@ class ContactUs extends Component {
     emailjs.sendForm('service_dfg3xys', 'template_rl22rbh', e.target, 'user_COz5ok5wKikrQvGtbs0kd')
         .then((result) => {
             console.log(result.text);
+            this.showModal();
         }, (error) => {
             console.log(error.text);
         });
@@ -68,6 +83,11 @@ class ContactUs extends Component {
           <textarea name="message" required className={classes.textarea} onChange={this.handlechangeall} placeholder="Your Message"></textarea><br/>
           <input type="submit" className={classes.submitbtn} value="Send Message"></input><br/>
         </form>
+
+        <PopUp
+        show={this.state.show}
+        onHide={() =>this.hideModal}
+      />
         </div>
       );
     }
