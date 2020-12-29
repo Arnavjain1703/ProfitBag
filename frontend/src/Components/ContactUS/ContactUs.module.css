@@ -170,3 +170,9 @@
         font-size: 12px;
     }
 }
+
+@media(max-height:500px ){
+.contact{
+    padding-top: 200px;
+}
+}
