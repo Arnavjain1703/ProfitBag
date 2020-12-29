@@ -4,17 +4,17 @@ import classes from './LandingSection.module.css';
 class LandingSection extends Component {
 
   
-  state={
-    hovered:false
-  }
+  // state={
+  //   hovered:false
+  // }
 
-  hoverAdder=()=>{
-    this.setState({hovered:true});
-  }
+  // hoverAdder=()=>{
+  //   this.setState({hovered:true});
+  // }
 
-  hoverRemover=()=>{
-    this.setState({hovered:false});
-  }
+  // hoverRemover=()=>{
+  //   this.setState({hovered:false});
+  // }
 
     render(){
 
@@ -32,12 +32,15 @@ class LandingSection extends Component {
         </div>
         <div className={classes.btnContainer}>
 
-        {this.state.hovered?<div id="trade" className={classes.notrade}>
+        {/* {this.state.hovered?<div id="trade" className={classes.notrade}>
         Start trading
         </div>:
         <div id="trade" className={classes.tradebtn}>
         Start&nbsp;trading
-        </div>}
+        </div>} */}
+
+        <div id="trade" className={classes.tradebtn}>
+        Start&nbsp;trading </div>
 
         <div id="down" onMouseEnter={this.hoverAdder} onMouseLeave={this.hoverRemover} className={classes.downloadbtn}>
         Download&nbsp;app
