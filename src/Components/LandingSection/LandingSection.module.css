@@ -89,7 +89,7 @@
     cursor: pointer;
 }
 
-.tradebtn:hover{
+/* .tradebtn:hover{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -102,7 +102,7 @@
     border: 2px solid white;
     border-radius: 3px;
     font-family: 'Poppins';
-}
+} */
 
 .heading{
     font-size: 56px;

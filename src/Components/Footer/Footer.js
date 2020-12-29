@@ -8,7 +8,7 @@ class Footer extends Component {
 
       return (
         <div className={classes.footer}>
-        DESIGNED & DEVELOPED BY : <SIlogo className={classes.logo} /> SOFTWARE INCUBATOR
+        DESIGNED & DEVELOPED BY : <SIlogo className={classes.logo} /> <a href="https://silive.in" className={classes.si} target="_blank">SOFTWARE INCUBATOR</a>
         </div>
       );
     }
