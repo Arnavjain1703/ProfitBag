@@ -27,10 +27,9 @@ class TradeWithUs extends Component {
 
     Aos.init({
 
-      offset: 350,
+      offset: 370,
       duration: 500,
       easing: 'ease-in-sine',
-      delay:10000
     });
 
   }
