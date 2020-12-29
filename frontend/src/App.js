@@ -6,6 +6,7 @@ import Features from './Components/Features/Features';
 import Feedback from './Components/Feedback/Feedback';
 import ContactUS from './Components/ContactUS/ContactUS';
 import Navbar from './Components/Navbar/Navbar';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Features />
       <Feedback />
       <ContactUS />
+      <Footer />
     </div>
   );
 }

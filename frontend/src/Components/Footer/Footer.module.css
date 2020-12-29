@@ -1,0 +1,36 @@
+.footer{
+    background: #000C28;
+    height: 40px;
+    display: flex;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    color: #fff;
+    justify-content: center; 
+    align-items: center;
+    font-size: 16px;
+}
+
+.logo{
+    height: 18px;
+}
+
+@media(max-width:500px){
+    .footer{
+        font-size: 12px;
+    }
+
+    .logo{
+        height: 16px;
+    }
+}
+
+@media(max-width:380px){
+    .footer{
+        font-size: 8px;
+    }
+
+    .logo{
+        height: 12px;
+    }
+}
+
