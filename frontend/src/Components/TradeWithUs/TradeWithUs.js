@@ -23,14 +23,14 @@ class TradeWithUs extends Component {
       this.setState({value:window.pageYOffset / (document.body.offsetTop - window.innerHeight)});
       this.setState({value2:this.state.value})
       this.setState({value3:((this.state.value2))})
-      console.log(this.state.value3)
     }, false);
 
     Aos.init({
 
-      offset: 100,
+      offset: 350,
       duration: 500,
       easing: 'ease-in-sine',
+      delay:10000
     });
 
   }
