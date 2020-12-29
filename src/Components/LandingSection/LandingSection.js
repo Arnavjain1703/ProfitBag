@@ -21,7 +21,7 @@ class LandingSection extends Component {
       return (
         <div id='home' className={classes.landingSection}>
           <div className={classes.heading}>
-        Start Trading<br />
+        tart Trading<br />
         Today With<br />
         Profitbag<br />
         </div>
