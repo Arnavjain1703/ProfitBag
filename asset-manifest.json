@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/ProfitBag/static/css/main.71260f72.chunk.css",
+    "main.js": "/ProfitBag/static/js/main.aee12239.chunk.js",
+    "main.js.map": "/ProfitBag/static/js/main.aee12239.chunk.js.map",
+    "runtime-main.js": "/ProfitBag/static/js/runtime-main.341f6d46.js",
+    "runtime-main.js.map": "/ProfitBag/static/js/runtime-main.341f6d46.js.map",
+    "static/css/2.bc86c968.chunk.css": "/ProfitBag/static/css/2.bc86c968.chunk.css",
+    "static/js/2.06f5cf6d.chunk.js": "/ProfitBag/static/js/2.06f5cf6d.chunk.js",
+    "static/js/2.06f5cf6d.chunk.js.map": "/ProfitBag/static/js/2.06f5cf6d.chunk.js.map",
+    "static/js/3.b415f9a4.chunk.js": "/ProfitBag/static/js/3.b415f9a4.chunk.js",
+    "static/js/3.b415f9a4.chunk.js.map": "/ProfitBag/static/js/3.b415f9a4.chunk.js.map",
+    "index.html": "/ProfitBag/index.html",
+    "static/css/2.bc86c968.chunk.css.map": "/ProfitBag/static/css/2.bc86c968.chunk.css.map",
+    "static/css/main.71260f72.chunk.css.map": "/ProfitBag/static/css/main.71260f72.chunk.css.map",
+    "static/js/2.06f5cf6d.chunk.js.LICENSE.txt": "/ProfitBag/static/js/2.06f5cf6d.chunk.js.LICENSE.txt",
+    "static/media/TradeWithUs.module.css": "/ProfitBag/static/media/bg2.38c09e11.svg",
+    "static/media/LandingSection.module.css": "/ProfitBag/static/media/bg1.a32564d8.svg",
+    "static/media/Features.module.css": "/ProfitBag/static/media/bg3.9ffd99c6.svg",
+    "static/media/Feedback.module.css": "/ProfitBag/static/media/bg4.01afd5d8.svg",
+    "static/media/ContactUs.module.css": "/ProfitBag/static/media/bg5.31d0d042.svg",
+    "static/media/devices.b1e17d33.svg": "/ProfitBag/static/media/devices.b1e17d33.svg",
+    "static/media/notifications.e6f5db83.svg": "/ProfitBag/static/media/notifications.e6f5db83.svg",
+    "static/media/silogo.58a07cca.svg": "/ProfitBag/static/media/silogo.58a07cca.svg",
+    "static/media/smallsteps.a1d7288f.svg": "/ProfitBag/static/media/smallsteps.a1d7288f.svg",
+    "static/media/steps.09e047e5.svg": "/ProfitBag/static/media/steps.09e047e5.svg",
+    "static/media/trade.333eb0b1.svg": "/ProfitBag/static/media/trade.333eb0b1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.341f6d46.js",
+    "static/css/2.bc86c968.chunk.css",
+    "static/js/2.06f5cf6d.chunk.js",
+    "static/css/main.71260f72.chunk.css",
+    "static/js/main.aee12239.chunk.js"
+  ]
+}
