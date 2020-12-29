@@ -6,7 +6,7 @@ class LandingSection extends Component {
     render(){
      
       return (
-        <div className={classes.landingSection}>
+        <div id='home' className={classes.landingSection}>
           <div className={classes.heading}>
         Start Trading<br />
         Today With<br />
