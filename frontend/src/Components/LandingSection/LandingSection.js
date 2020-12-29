@@ -36,7 +36,7 @@ class LandingSection extends Component {
         Start trading
         </div>:
         <div id="trade" className={classes.tradebtn}>
-        Start trading
+        Start&nbsp;trading
         </div>}
 
         <div id="down" onMouseEnter={this.hoverAdder} onMouseLeave={this.hoverRemover} className={classes.downloadbtn}>
