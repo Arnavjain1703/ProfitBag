@@ -99,10 +99,27 @@ padding: auto;
     }
 }
 
+
 @media(max-width:1025px){
+  .box{
+    display: none;
+  }
+
+  .laptop{
+    width: 60vw;
+    height: 37vw;
+    margin-top: 20vh;
+    z-index: 2;
+    background: url('../../assets/images/Laptop.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 10vh;
+  }
+
   .phone{
-    top: 122vh; 
-    left: 35vw;
+    top: 127vh;
+    left: 18vw;
   }
 }
 
@@ -138,7 +155,8 @@ padding: auto;
 }
 
 @media(min-width:501px){
-  .laptop, .mobicon{
+  /* .laptop, */
+   .mobicon{
     display: none;
   }
 }
@@ -148,3 +166,4 @@ padding: auto;
     top: 123vh;
   }
 }
+
