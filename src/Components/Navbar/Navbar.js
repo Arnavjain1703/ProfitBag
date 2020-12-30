@@ -16,7 +16,12 @@ class Navbar extends Component {
             <nav className="NavbarItems">
                 <p className="navbar-logo">TRADEBAG</p>
                 <div className="menu-icon" onClick={this.handleClick}>
-                    <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
+                    {/* <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i> */}
+<div id="nav-icon1" className={this.state.clicked? 'open' : 'no'}>
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
                 </div>
                 <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
                     {MenuItems.map((item, index) => {
