@@ -89,21 +89,6 @@
     cursor: pointer;
 }
 
-/* .tradebtn:hover{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    width: 150px;
-    height: 40px;  
-    margin-right: 32px;
-    background: #03102F;
-    border: 2px solid white;
-    border-radius: 3px;
-    font-family: 'Poppins';
-} */
-
 .heading{
     font-size: 56px;
     line-height: 1.2;

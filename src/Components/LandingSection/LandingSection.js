@@ -4,17 +4,20 @@ import classes from './LandingSection.module.css';
 class LandingSection extends Component {
 
   
-  // state={
-  //   hovered:false
-  // }
+  state={
+    background:"#FFFFFF",
+    color: "#03102F"
+  }
 
-  // hoverAdder=()=>{
-  //   this.setState({hovered:true});
-  // }
+  hoverAdder=()=>{
+    this.setState({ background:"#03102F"});
+    this.setState({ color: "#FFFFFF"});
+  }
 
-  // hoverRemover=()=>{
-  //   this.setState({hovered:false});
-  // }
+  hoverRemover=()=>{
+    this.setState({ background:"#FFFFFF"});
+    this.setState({ color: "#03102F"});
+  }
 
     render(){
 
@@ -39,7 +42,7 @@ class LandingSection extends Component {
         Start&nbsp;trading
         </div>} */}
 
-        <div id="trade" className={classes.tradebtn}>
+        <div id="trade" className={classes.tradebtn} style={{background:`${this.state.background}`,color:`${this.state.color}`}}>
         Start&nbsp;trading </div>
 
         <div id="down" onMouseEnter={this.hoverAdder} onMouseLeave={this.hoverRemover} className={classes.downloadbtn}>
