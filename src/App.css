@@ -56,4 +56,5 @@ input[type=number] {
 display: flex !important;
 align-items: center;
 cursor: pointer;
+color: #151515 !important;
 }
