@@ -69,7 +69,7 @@ class ContactUs extends Component {
       return (
 
         <div id="contact" className={classes.contact} data-aos="zoom-in">
-            <div className={classes.image} data-aos="zoom-in"></div>
+            <div className={classes.image}></div>
         <p className={classes.heading}>Contact US</p>
         <p className={classes.text}>Having any query about features, trials, pricing, need a demo, or anything else? Our team is ready to answer all your questions</p>
         <form className={classes.form} onSubmit={this.handlesubmit}>
