@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ProfitBag/static/css/main.38ee151a.chunk.css",
-    "main.js": "/ProfitBag/static/js/main.d316af24.chunk.js",
-    "main.js.map": "/ProfitBag/static/js/main.d316af24.chunk.js.map",
+    "main.css": "/ProfitBag/static/css/main.b4071acf.chunk.css",
+    "main.js": "/ProfitBag/static/js/main.c7e7f74d.chunk.js",
+    "main.js.map": "/ProfitBag/static/js/main.c7e7f74d.chunk.js.map",
     "runtime-main.js": "/ProfitBag/static/js/runtime-main.341f6d46.js",
     "runtime-main.js.map": "/ProfitBag/static/js/runtime-main.341f6d46.js.map",
     "static/css/2.bc86c968.chunk.css": "/ProfitBag/static/css/2.bc86c968.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.b415f9a4.chunk.js.map": "/ProfitBag/static/js/3.b415f9a4.chunk.js.map",
     "index.html": "/ProfitBag/index.html",
     "static/css/2.bc86c968.chunk.css.map": "/ProfitBag/static/css/2.bc86c968.chunk.css.map",
-    "static/css/main.38ee151a.chunk.css.map": "/ProfitBag/static/css/main.38ee151a.chunk.css.map",
+    "static/css/main.b4071acf.chunk.css.map": "/ProfitBag/static/css/main.b4071acf.chunk.css.map",
     "static/js/2.0e6cc412.chunk.js.LICENSE.txt": "/ProfitBag/static/js/2.0e6cc412.chunk.js.LICENSE.txt",
     "static/media/TradeWithUs.module.css": "/ProfitBag/static/media/bg2.38c09e11.svg",
     "static/media/LandingSection.module.css": "/ProfitBag/static/media/bg1.a32564d8.svg",
@@ -30,7 +30,7 @@
     "static/js/runtime-main.341f6d46.js",
     "static/css/2.bc86c968.chunk.css",
     "static/js/2.0e6cc412.chunk.js",
-    "static/css/main.38ee151a.chunk.css",
-    "static/js/main.d316af24.chunk.js"
+    "static/css/main.b4071acf.chunk.css",
+    "static/js/main.c7e7f74d.chunk.js"
   ]
 }
