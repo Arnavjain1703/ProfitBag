@@ -79,7 +79,9 @@
     position: relative;
     z-index: 2;
 }
-
+.featurebox p{
+    text-align: center;
+}
 .featurebox{
     background: linear-gradient(368deg, #001F69 -32.79%, #03102F 41.07%);
     /* background: red; */
@@ -87,7 +89,7 @@
     width: 250px;
     /* height:220px; */
     display: flex;
-    justify-content: center;
+    
     align-items: center;
     /* padding-bottom: 30px ; */
     flex-direction: column;
