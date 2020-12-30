@@ -78,7 +78,7 @@ class ContactUs extends Component {
           {/* <input type="number" required name="contact" className={classes.fields} onChange={this.handlechangeall} placeholder="Contact Number"></input><br/> */}
           
           <input required name="contact" className={classes.fields} onChange={this.handlechangeall} placeholder="Contact Number"
-          pattern="[0-9]{10}" title="This is an error message"
+          pattern="^[6789]\d{9}$" title="This is an error message"
           ></input><br/>
 
           <textarea name="message" required className={classes.textarea} onChange={this.handlechangeall} placeholder="Your Message"></textarea><br/>
