@@ -1,5 +1,6 @@
 .NavbarItems {
-    background: #03102F;
+    /* background: ; */
+    background-image: linear-gradient(#03102F, #00081a);
     /* background: red;  */
     height: 60px;
     display: flex;
