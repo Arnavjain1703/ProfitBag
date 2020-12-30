@@ -24,7 +24,7 @@ class Feedback extends Component {
         {/* first review */}
   <div className={classes.box}>
             <p className={classes.head}>Dhriti Chadda</p>
-            <p className={classes.text}>I'm working with Profitbag <br/>
+            <p className={classes.text}>I'm working with Tradebag <br/>
             since Jan-2017. All I can
             say  <br/>that they are best in 
             terms  <br/>of broker and 
@@ -35,7 +35,7 @@ class Feedback extends Component {
 {/* second review */}
             <div className={classes.box2}>
             <p className={classes.head}>Dhriti Chadda</p>
-            <p className={classes.text}>I'm working with Profitbag <br/>
+            <p className={classes.text}>I'm working with Tradebag <br/>
             since Jan-2017. All I can
             say  <br/>that they are best in 
             terms  <br/>of broker and 
@@ -51,7 +51,7 @@ class Feedback extends Component {
     {/* first review */}
   <div className={classes.box}>
             <p className={classes.head}>Dhriti Chadda</p>
-            <p className={classes.text}>I'm working with Profitbag <br/>
+            <p className={classes.text}>I'm working with Tradebag <br/>
             since Jan-2017. All I can
             say  <br/>that they are best in 
             terms  <br/>of broker and 
@@ -62,7 +62,7 @@ class Feedback extends Component {
             {/* second review */}
             <div className={classes.box2}>
             <p className={classes.head}>Dhriti Chadda</p>
-            <p className={classes.text}>I'm working with Profitbag <br/>
+            <p className={classes.text}>I'm working with Tradebag <br/>
             since Jan-2017. All I can
             say  <br/>that they are best in 
             terms  <br/>of broker and 
@@ -77,7 +77,7 @@ class Feedback extends Component {
     {/* first review */}
   <div className={classes.box}>
             <p className={classes.head}>Dhriti Chadda</p>
-            <p className={classes.text}>I'm working with Profitbag <br/>
+            <p className={classes.text}>I'm working with Tradebag <br/>
             since Jan-2017. All I can
             say  <br/>that they are best in 
             terms  <br/>of broker and 
@@ -88,7 +88,7 @@ class Feedback extends Component {
             {/* second review */}
             <div className={classes.box2}>
             <p className={classes.head}>Dhriti Chadda</p>
-            <p className={classes.text}>I'm working with Profitbag <br/>
+            <p className={classes.text}>I'm working with Tradebag <br/>
             since Jan-2017. All I can
             say  <br/>that they are best in 
             terms  <br/>of broker and 
