@@ -44,10 +44,11 @@
 
 .nav-links {
     color: white;
-    font-weight: 600;
+    font-weight: 500;
     text-decoration: none;
     padding: 0.5rem 1rem;
     cursor: pointer;
+    font-family: 'Montserrat';
 }
 
 

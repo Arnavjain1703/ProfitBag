@@ -28,7 +28,7 @@ class Features extends Component {
         <div className={classes.featurebox}  data-aos="fade-up">
         <DeviceIcon className={classes.icon}/>
         <p className={classes.featurehead}>Access on Any Platform</p>
-        <p className={classes.text}>Trade across web and mobile without skipping a beat.</p>
+        <p className={classes.text}>Trade across all the devices without skipping a beat.</p>
         </div>
         <div className={classes.featurebox}  data-aos="fade-up">
         <NotificationsIcon className={classes.icon}/>

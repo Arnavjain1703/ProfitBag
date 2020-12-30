@@ -4,7 +4,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css'
 import emailjs from "emailjs-com";
 import PopUp from '../UI/PopUp/PopUp'
-
+import LoadingOverlay from 'react-loading-overlay';
 
 class ContactUs extends Component {
 
@@ -12,7 +12,8 @@ class ContactUs extends Component {
     name: "",
     contact: "",
     message: "",
-    show:false
+    show:false,
+    isLoading: false
   }
   componentDidMount()
   {
@@ -48,6 +49,7 @@ class ContactUs extends Component {
     }
 
   handlesubmit = (e) => {
+    this.setState({ isLoading: true });
     e.preventDefault();
     console.log(this.state.name)
     console.log(this.state.contact)
@@ -58,6 +60,7 @@ class ContactUs extends Component {
     emailjs.sendForm('service_dfg3xys', 'template_rl22rbh', e.target, 'user_COz5ok5wKikrQvGtbs0kd')
         .then((result) => {
             console.log(result.text);
+            this.setState({ isLoading: false });
             this.showModal();
         }, (error) => {
             console.log(error.text);
@@ -68,13 +71,17 @@ class ContactUs extends Component {
     render(){
      
       return (
-
+        <LoadingOverlay
+        active={this.state.isLoading}
+        spinner
+        text='Loading...'
+        >
         <div id="contact" className={classes.contact} data-aos="zoom-in">
             <div className={classes.image}></div>
         <p className={classes.heading}>Contact US</p>
         <p className={classes.text}>Having any query about features, trials, pricing, need a demo, or anything else? Our team is ready to answer all your questions</p>
         <form className={classes.form} onSubmit={this.handlesubmit}>
-          <input type="text" required name="name" className={classes.fields} onChange={this.handlechangeall} placeholder="Your Name"></input><br/>
+          <input type="text" required name="name" pattern="^[A-Za-z]+$" className={classes.fields} onChange={this.handlechangeall} placeholder="Your Name"></input><br/>
           {/* <input type="number" required name="contact" className={classes.fields} onChange={this.handlechangeall} placeholder="Contact Number"></input><br/> */}
           
           <input required name="contact" className={classes.fields} onChange={this.handlechangeall} placeholder="Contact Number"
@@ -90,6 +97,7 @@ class ContactUs extends Component {
         onHide={() =>this.hideModal}
       />
         </div>
+        </LoadingOverlay>
       );
     }
             
