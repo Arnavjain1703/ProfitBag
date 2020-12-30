@@ -5,8 +5,8 @@ class LandingSection extends Component {
 
   
   state={
-    background:"#FFFFFF",
-    color: "#03102F"
+    background:"#03102F",
+    color: "#FFFFFF"
   }
 
   hoverAdder=()=>{
