@@ -81,7 +81,7 @@ class ContactUs extends Component {
         <p className={classes.heading}>Contact US</p>
         <p className={classes.text}>Having any query about features, trials, pricing, need a demo, or anything else? Our team is ready to answer all your questions</p>
         <form className={classes.form} onSubmit={this.handlesubmit}>
-          <input type="text" required name="name" pattern="^[A-Za-z]+$" className={classes.fields} onChange={this.handlechangeall} placeholder="Your Name"></input><br/>
+          <input type="text" required name="name" pattern="[a-zA-Z][a-zA-Z ]+[a-zA-Z]$" className={classes.fields} onChange={this.handlechangeall} placeholder="Your Name"></input><br/>
           {/* <input type="number" required name="contact" className={classes.fields} onChange={this.handlechangeall} placeholder="Contact Number"></input><br/> */}
           
           <input required name="contact" className={classes.fields} onChange={this.handlechangeall} placeholder="Contact Number"
