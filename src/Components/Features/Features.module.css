@@ -140,7 +140,10 @@
         }
     }
     @media(max-width: 455px){
-        
+
+        .image{
+            background: url('../../assets/images/mbg3.svg');
+          }
 
         .featurebox{
             width: 250px;

@@ -135,6 +135,10 @@ z-index: 2;
     display: none;
   }
 
+  .image{
+    background: url('../../assets/images/mbg2.svg');
+  }
+
   .mobicon{
     width: 60%;
     margin-top: 5vh;

@@ -147,6 +147,8 @@
     .landingSection{
         padding-left: 0px;
         align-items: center;
+        background-image: linear-gradient(to bottom, rgba(3, 16, 47, 0), rgba(3, 16, 47, 0.5)),
+        url("../../assets/images/bg1.svg");
     }
 
     .heading{
@@ -167,6 +169,8 @@
     .btnContainer{
         width: 80%;
     }
+
+
 
 } 
 

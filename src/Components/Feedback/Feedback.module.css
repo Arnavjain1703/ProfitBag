@@ -93,6 +93,12 @@
         }
     }
 
+    @media(max-width:455px){
+        .image{
+            background: url('../../assets/images/mbg4.svg');
+          }
+    }
+
     @media(max-width: 380px){
 
         .heading{

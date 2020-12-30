@@ -43,7 +43,7 @@ class TradeWithUs extends Component {
         <div  className={classes.tradewithus}>
         <div className={classes.image} data-aos="fade-up"></div>
 
-        <div style={{animationDelay:`${this.state.value3}`+"s" }}className={classes.box}></div>
+        <div style={{animationDelay:`${this.state.value3}s`}}className={classes.box}></div>
         <div className={classes.phone}   data-aos-offset="390" data-aos="fade-right"></div>
 
         <div className={classes.laptop} data-aos="fade-up"></div>

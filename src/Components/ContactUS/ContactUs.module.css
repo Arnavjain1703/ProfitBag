@@ -140,6 +140,10 @@
     .text, .form{
         width: 80%;
     }
+
+    .image{
+        background: none;
+      }
 }
 
 @media(max-width:361px){
