@@ -41,3 +41,19 @@ input[type=number] {
   border: 2px solid white;
 } */
 
+
+.poptitle{
+  margin: 0 !important;
+}
+
+.modal-title{
+  width: 100% !important;
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+.popup-icon{
+display: flex !important;
+align-items: center;
+cursor: pointer;
+}
