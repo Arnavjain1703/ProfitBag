@@ -146,8 +146,9 @@ z-index: 2;
   }
 
   .mobicon{
-    width: 60%;
-    margin-top: 5vh;
+    height: 30vh;
+    width: auto;
+    margin-top: 12vh;
     position: relative;
     z-index: 2;
   }
