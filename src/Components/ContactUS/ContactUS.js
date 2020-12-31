@@ -51,13 +51,9 @@ class ContactUs extends Component {
   handlesubmit = (e) => {
     this.setState({ isLoading: true });
     e.preventDefault();
-    console.log(this.state.name)
-    console.log(this.state.contact)
-    console.log(this.state.message)
-
     e.preventDefault();
 
-    emailjs.sendForm('service_dfg3xys', 'template_rl22rbh', e.target, 'user_COz5ok5wKikrQvGtbs0kd')
+    emailjs.sendForm(process.env.REACT_APP_S,process.env.REACT_APP_T, e.target,process.env.REACT_APP_ID)
         .then((result) => {
             this.setState({ isLoading: false });
             this.showModal();
