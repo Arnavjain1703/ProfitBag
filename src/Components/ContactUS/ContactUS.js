@@ -59,11 +59,9 @@ class ContactUs extends Component {
 
     emailjs.sendForm('service_dfg3xys', 'template_rl22rbh', e.target, 'user_COz5ok5wKikrQvGtbs0kd')
         .then((result) => {
-            console.log(result.text);
             this.setState({ isLoading: false });
             this.showModal();
         }, (error) => {
-            console.log(error.text);
         });
         e.target.reset()
   }
