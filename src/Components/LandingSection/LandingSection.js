@@ -30,9 +30,9 @@ class LandingSection extends Component {
         TradeBag<br />
         </div>
         <div className={classes.description}>
-        With Tradebag you can do trading Anywhere <br className={classes.breaks}/>
-        Anytime on any platform. Download our app <br className={classes.breaks}/>
-        or continue with your browers for trading. <br className={classes.breaks}/>
+        With Tradebag you can do trading anywhere <br className={classes.breaks}/>
+        anytime on any platform. Download our app <br className={classes.breaks}/>
+        or continue with your brower for trading. <br className={classes.breaks}/>
         </div>
         <div className={classes.btnContainer}>
 

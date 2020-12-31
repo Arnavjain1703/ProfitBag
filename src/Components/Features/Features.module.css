@@ -29,19 +29,21 @@
      background-repeat: no-repeat;
 }
 .featurehead{
-    font-size: 20px;
+    font-size: 18px;
     color: white;
-    font-weight: 600;
+    font-weight: 500;
     margin-top: 10px;
     margin-bottom: 5px;
     position: relative;
     z-index: 2;
+    font-family: 'Montserrat';
 }
 
 .text{
-    font-size: 16px;
+    font-size: 14px;
     color: white;
     /* background-color: brown; */
+    font-family: 'Montserrat';
     padding-left: 15px;
     padding-right: 15px;
     margin-top: 0;
@@ -107,11 +109,11 @@
         }
 
         .featurehead{
-            font-size: 16px;
+            font-size: 14px;
         }
 
         .text{
-            font-size: 14px;
+            font-size: 12px;
         }
 
     }
@@ -128,11 +130,11 @@
         }
 
         .featurehead{
-            font-size: 20px;
+            font-size: 18px;
         }
 
         .text{
-            font-size: 16px;
+            font-size: 14px;
         }
 
         .featurebox{
