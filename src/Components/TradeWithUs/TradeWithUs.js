@@ -47,10 +47,10 @@ class TradeWithUs extends Component {
         <div className={classes.phone}   data-aos-offset="390" data-aos="fade-right"></div>
 
         <div className={classes.laptop} data-aos="fade-up"></div>
-        <div className={classes.heading} data-aos-offset="220" data-aos="fade-up">Trade With Us</div>
+        <div className={classes.heading} data-aos-offset="300" data-aos="fade-up">Trade With Us</div>
 
         {/*  */}
-        <div className={classes.icondiv} data-aos="fade-up"><StepsIcon className={classes.icon} />
+        <div className={classes.icondiv} data-aos-offset="300" data-aos="fade-up"><StepsIcon className={classes.icon} />
         <SmallStepsIcon className={classes.mobicon} />
         </div>
         </div>
