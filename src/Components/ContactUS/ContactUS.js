@@ -4,6 +4,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css'
 import emailjs from "emailjs-com";
 import PopUp from '../UI/PopUp/PopUp'
+import Loader from '../UI/Loader/Loader'
 import LoadingOverlay from 'react-loading-overlay';
 
 class ContactUs extends Component {
@@ -71,11 +72,8 @@ class ContactUs extends Component {
     render(){
      
       return (
-        <LoadingOverlay
-        active={this.state.isLoading}
-        spinner
-        text='Loading...'
-        >
+        <>
+        {this.state.isLoading?<Loader />:null}
         <div id="contact" className={classes.contact} data-aos="zoom-in">
             <div className={classes.image}></div>
         <p className={classes.heading}>Contact US</p>
@@ -96,8 +94,10 @@ class ContactUs extends Component {
         show={this.state.show}
         onHide={() =>this.hideModal}
       />
+
+
         </div>
-        </LoadingOverlay>
+        </>
       );
     }
             
