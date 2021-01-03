@@ -22,8 +22,8 @@ class TradeWithUs extends Component {
     
     window.addEventListener('scroll', () => {
       this.setState({value:window.pageYOffset / (document.body.offsetTop - window.innerHeight)});
-      this.setState({value2:this.state.value})
-      this.setState({value3:((this.state.value2))})
+      // this.setState({value2:this.state.value})
+      // this.setState({value3:((this.state.value2))})
     }, false);
 
     Aos.init({
@@ -43,7 +43,7 @@ class TradeWithUs extends Component {
         <div  className={classes.tradewithus}>
         <div className={classes.image} data-aos="fade-up"></div>
 
-        <div style={{animationDelay:`${this.state.value3}s`}}className={classes.box}></div>
+        <div style={{animationDelay:`${this.state.value}s`}}className={classes.box}></div>
         <div className={classes.phone}   data-aos-offset="390" data-aos="fade-right"></div>
 
         <div className={classes.laptop} data-aos="fade-up"></div>

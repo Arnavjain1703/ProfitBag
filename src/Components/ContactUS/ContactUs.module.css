@@ -77,8 +77,7 @@
     color: #03102F;
     font-family: 'Montserrat' ;
     font-weight: 500;
-    /* box-shadow: none; */
-    /* opacity: 0.5; */
+    background-color: white;
     border-radius: 10px;
     height: 48px;
     margin-bottom: 20px;
