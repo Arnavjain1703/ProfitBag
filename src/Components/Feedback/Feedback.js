@@ -23,7 +23,7 @@ class Feedback extends Component {
   <div className={classes.Container}>
         {/* first review */}
   <div className={classes.box}>
-            <p className={classes.head}>Vijay Singh</p>
+            <p className={classes.head}>Arnav Jain</p>
             <p className={classes.text}>
             What I like the most about <br/>
             this app is that it provides <br/>
@@ -36,7 +36,7 @@ class Feedback extends Component {
             </div>
 {/* second review */}
             <div className={classes.box2}>
-            <p className={classes.head}>Madan Verma</p>
+            <p className={classes.head}>Tapish Gupta</p>
             <p className={classes.text}>
             A friend recommended me <br/>
             to use this platform for <br/>
@@ -54,7 +54,7 @@ class Feedback extends Component {
   <div className={classes.Container}>
     {/* first review */}
   <div className={classes.box}>
-            <p className={classes.head}>Dhriti Chadda</p>
+            <p className={classes.head}>Shrishti Mittal</p>
             <p className={classes.text}>I'm working with Tradebag <br/>
             since Jan-2017. All I can
             say  <br/>that they are best in 
