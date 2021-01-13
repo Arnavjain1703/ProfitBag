@@ -31,7 +31,7 @@
 }
 
 .tradebag-logo{
-width: 25px;
+width: 50px;
 height: auto;
 margin-right: 10px;
 }
@@ -135,11 +135,16 @@ margin-right: 10px;
     .navbar-logo {
         position: absolute;
         top: 0;
-        margin-top: 10px;
+        margin-top: 5px;
         left: 0;
         margin-left: 0px;
         transform: translate(25%, 50%);
         font-size: 20px;
+    }
+
+    .tradebag-logo{
+        width: 40px;
+        height: auto;
     }
 
     .menu-icon {
