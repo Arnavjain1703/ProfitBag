@@ -65,7 +65,7 @@ class Feedback extends Component {
             </div>
             {/* second review */}
             <div className={classes.box2}>
-            <p className={classes.head}>Vasudha Pathak</p>
+            <p className={classes.head}>Pranat Sharma</p>
             <p className={classes.text}>
             The app is very easy to use. <br />
             The trading process is fast<br />
@@ -82,7 +82,7 @@ class Feedback extends Component {
   <div className={classes.Container}>
     {/* first review */}
   <div className={classes.box}>
-            <p className={classes.head}>Anik Dutta</p>
+            <p className={classes.head}>Rishabh Tyagi</p>
             <p className={classes.text}>
             This app is a real time saver<br/>
             for me. It syncs everything <br/>
@@ -95,7 +95,7 @@ class Feedback extends Component {
             </div>
             {/* second review */}
             <div className={classes.box2}>
-            <p className={classes.head}>Ravi Shah</p>
+            <p className={classes.head}>Muskan Mittal</p>
             <p className={classes.text}>
             No 1 trading platform in <br/> 
             the segment with lots of <br/>
