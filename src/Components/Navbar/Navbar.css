@@ -27,6 +27,13 @@
     margin-left: 20px;
     margin-bottom: 0px;
     cursor: pointer;
+    white-space: nowrap;
+}
+
+.tradebag-logo{
+width: 25px;
+height: auto;
+margin-right: 10px;
 }
 
 
@@ -132,6 +139,7 @@
         left: 0;
         margin-left: 0px;
         transform: translate(25%, 50%);
+        font-size: 20px;
     }
 
     .menu-icon {
@@ -184,6 +192,12 @@
 @media screen and (min-width: 960px) {
     .hide{
         display:none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .navbar-logo {
+        font-size: 15px;
     }
 }
 

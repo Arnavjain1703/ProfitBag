@@ -3,6 +3,7 @@ import { MenuItems } from "./MenuItems"
 import { Button } from "../Button"
 import './Navbar.css'
 import { Link } from 'react-scroll';
+import TbLogo from '../../assets/images/logo.png';
 
 class Navbar extends Component {
     state = { clicked: false }
@@ -14,7 +15,7 @@ class Navbar extends Component {
     render() {
         return(
             <nav className="NavbarItems">
-                <p className="navbar-logo">TRADEBAG</p>
+                <p className="navbar-logo"><img class="tradebag-logo" src={TbLogo}/>TRADEBAG</p>
                 <div className="menu-icon" onClick={this.handleClick}>
                     {/* <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i> */}
 <div id="nav-icon1" className={this.state.clicked? 'open' : 'no'}>
